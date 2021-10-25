@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html {
+  scroll-behavior: smooth;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  height: 53px;
+  background: url(./images/header_bg.gif) repeat-x;
+  border-top: 2px solid #f48024;
+  z-index: 99;
+  text-align: left;
+  margin: 0;
+}
+header li.nav-item {
+  margin-left: 23px;
+  display: inline;
+}
+.col.header-col {
+  float: right;
+  margin-right: 43px;
+}
+ul.nav.profile {
+  margin-top: 10px;
+}
+.navbar-brand img {
+  margin-top: -11px;
+}
+.login-form {
+  width: 29%;
+  margin: 5% auto;
+}
+.editable-cell-value-wrap {
+  padding: 15px;
+}
+
+.procure-list-table .ant-table-thead > tr > th,
+.procure-list-table .ant-table-tbody > tr > td,
+.procure-list-table .ant-table tfoot > tr > th,
+.procure-list-table .ant-table tfoot > tr > td {
+  position: relative;
+  padding: 1px 1px !important;
+  overflow-wrap: break-word;
+}
+.add-button {
+  float: right;
+  margin-right: 7px;
+  margin-bottom: 3px;
+}
+th.ant-table-cell.control-to-stores-material-inward-team {
+  background-color: #f48024;
+}
+
+th.ant-table-cell.control-to-qa {
+  background-color: #24f469;
+}
+th.ant-table-cell.control-to-purchase {
+  background-color: hsl(64, 90%, 55%);
+}
+.react-resizable {
+  position: relative;
+  background-clip: padding-box;
+}
+
+.react-resizable-handle {
+  position: absolute;
+  width: 10px;
+  height: 100%;
+  bottom: 0;
+  right: -5px;
+  cursor: col-resize;
+  z-index: 1;
+}
